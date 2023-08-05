@@ -12,5 +12,4 @@ function Apartment(props) {
     </Link>
   )
 }
-
 export default Apartment;
