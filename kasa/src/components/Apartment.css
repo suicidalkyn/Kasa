@@ -1,8 +1,9 @@
 .apartment {
     position: relative;
     border-radius: 10px;
-    width: 340px;
-    height: 340px;
+    max-width: 340px;
+    width: 100%;
+    max-height: 340px;
     margin: 20px;
     color: white;
 }
@@ -11,7 +12,7 @@
         position: relative;
         width: 335px;
         height: 255px;
-        margin-bottom: 0;
+        margin-top: 10px;
     }
     .apartment_image {
         width: 335px;
@@ -20,10 +21,10 @@
     }
     .apartment_image .title {
         position: absolute;
-        left: 15px;
-        top: 200px;
-        width: 300px;
-        font-size: 18px;
+        left: 13px;
+        top: 160px;
+        width: 200px;
+        font-size: 12px;
     }
 }
 .apartment_subtitle {

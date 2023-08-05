@@ -7,17 +7,20 @@
     color:#ff6060;
     font-weight: 500;
     margin-block: 40px;
-    width: 1240px;
+    max-width: 1240px;
+    width: 100%;
 }
 .navbar_details {
-    width: 309px;
+    max-width: 309px;
+    width: 100%;
     height: 34px;
     display: flex;
     gap: 4em;
     justify-content: flex-end;
 }
 .navbar_logo {
-    width: 210px;
+    max-width: 210px;
+    width: 100%;
     height: 68px;
 }
 .navbar a {
@@ -39,29 +42,32 @@
 }
 @media screen and (width <= 375px) {
     .navbar {
-        width: 335px;
+        width: 40%;
         height: 47px;
         margin-top: 20px;
         gap: 0;
     }
     .navbar_details {
-        width: 140px;
+        width: 100%;
         height: 17px;
-        gap: 1em;
-        margin-right: -20px;
+        gap: 0.5em;
+        margin-top: -5px;
+        margin-right: -140px;
         display: flex;
-        justify-content: left;
+        justify-content: right;
+        padding-right: 0;
     }
     .navbar_logo {
         margin-right: -15px;
     }
     .navbar_logo img{
-        width: 145px;
-        height: 47px;
-        margin-top: 10.12px;
+        width: 80%;
+        height: 45%;
+        margin-top: 15px;
     }
     .accueil, .apropos {
-        font-size: 10px;
+        font-size: 60%;
+        width: 60px;
         line-height: 17.11px;
         padding-left: 0;
     }

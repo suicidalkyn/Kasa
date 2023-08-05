@@ -10,26 +10,37 @@
 .grid a {
     text-decoration: none;
 }
-@media screen and (width <= 375px) {
+@media screen and (width <= 376px) {
     .grid {
         justify-content: center;
         background-color: white;
         padding: 0;
         place-items: center;
         margin-bottom: 0;
-        width: 335px;
+        width: 100%;
         margin-left: 0;
     }
     body .grid {
         padding: 0;
         gap: 0;
     }
+    .grid a {
+        height: 225px;
+        margin-bottom: -10px;
+    }
      .grid .apartment_image {
-        height: 255px;
+        width: 80%;
+        height: 80%;
         margin-left: 0;
         position: relative;
+        margin-bottom: 0;
     }
     .grid .apartment_image title {
         margin-left: 0;
+    }
+    .apartment {
+        width: 80%;
+        margin-bottom: 0;
+        margin-top: 10px;
     }
 }

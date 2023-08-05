@@ -1,6 +1,7 @@
 .apartment_description {
     overflow: hidden;
-    width: 1023px;
+    max-width: 1023px;
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
@@ -67,13 +68,16 @@ li {
 }
 @media screen and (width <= 375px) {
     .apartment_description {
-        /* overflow: hidden; */
-        width: 335px;
+        width: 350px;
     }
     .description_header {
-        font-size: 13px;
+        font-size: 10px;
         line-height: 18.54px;
         padding-left: 0;
+        width: 70%;
+    }
+    .description_header span {
+        font-size: 14px;
     }
     .vector img{
         width: 18.42px;
@@ -81,12 +85,17 @@ li {
         padding-top: 5px;
     }
     .isOpen {
-        font-size: 12px;
+        font-size: 10px;
         line-height: 17.11px;
         padding-bottom: 0;
+        width: 70%;
     }
     .description_content {
         margin-bottom: 0;
-        
+        width: 70%;
     }
+    .description_content .isOpen {
+        font-size: 10px;
+    }
+    
 }

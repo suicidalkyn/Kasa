@@ -28,27 +28,31 @@
         flex-direction: row;
         justify-content: space-between;
     }
+    .apartment_owner{
+        width: 80%;
+    }
     .apartment_owner_details {
         order: 1;
     }
     .apartment_title h1 {
-        font-size: 18px;
+        font-size: 14px;
         line-height: 25.67px;
     }
     .apartment_title h2 {
-        font-size: 14px;
+        font-size: 12px;
         line-height: 19.96px;
     }
-    .apartment_tags {
-        font-size: 10px;
+    .apartment_title .apartment_tags span{
+        font-size: 12px;
         line-height: 14.26px;
+        padding-inline: 0;
     }
     .apartment_owner_details h3 span{
         font-size: 12px;
         line-height: 17.11px;
     }
     .apartment_owner_stars span{
-        font-size: 18px;
+        font-size: 16px;
         line-height: 18px;
     }
 }

@@ -12,8 +12,7 @@
 @media screen and (width <= 375px) {
     .ApartmentDescription_area {
         flex-direction: column;
-        /* width: 335px; */
-        /* height: 29.93px; */
+        width: 90%;
     }
     .apartment-page {
         width: 335px;
