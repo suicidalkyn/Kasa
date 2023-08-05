@@ -1,0 +1,40 @@
+.about_container {
+    width: 1023px;
+    /* padding-inline: 3em; */
+    font-weight: 500;
+    size: 24px;
+    /* line-height: 34.22px; */
+    margin-left: 60px;
+}
+.description_content {
+    font-weight: 500;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    
+}
+.imageAbout {
+    width: 1240px;
+    height: 223px;
+    object-fit: cover; /*zoomer sans deformer*/
+    border-radius: 25px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    position: relative;
+    margin-bottom: 1em;
+    margin-left: -50px;
+}
+
+@media screen and (width <= 375px) {
+    .about_container {
+        flex-direction: column;
+        width: 335px;
+        margin-left: -50px;
+        /* padding-left: 0; */
+    }
+    .apartment_description {
+        width: 335px;
+    }
+    .imageAbout {
+        width: 335px;
+        height: 223px;
+    }
+}

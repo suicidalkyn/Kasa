@@ -1,0 +1,35 @@
+.grid {
+    background-color: rgba(0, 0, 0, 0.119);
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap:1rem;
+    justify-content:center;
+    width: 1240px;
+}
+.grid a {
+    text-decoration: none;
+}
+@media screen and (width <= 375px) {
+    .grid {
+        justify-content: center;
+        background-color: white;
+        padding: 0;
+        place-items: center;
+        margin-bottom: 0;
+        width: 335px;
+        margin-left: 0;
+    }
+    body .grid {
+        padding: 0;
+        gap: 0;
+    }
+     .grid .apartment_image {
+        height: 255px;
+        margin-left: 0;
+        position: relative;
+    }
+    .grid .apartment_image title {
+        margin-left: 0;
+    }
+}

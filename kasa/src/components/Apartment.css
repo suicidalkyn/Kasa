@@ -1,0 +1,54 @@
+.apartment {
+    position: relative;
+    border-radius: 10px;
+    width: 340px;
+    height: 340px;
+    margin: 20px;
+    color: white;
+}
+@media screen and (width <= 375px) {
+    .apartment {
+        position: relative;
+        width: 335px;
+        height: 255px;
+        margin-bottom: 0;
+    }
+    .apartment_image {
+        width: 335px;
+        height: 255px;
+        margin-bottom: -10px;
+    }
+    .apartment_image .title {
+        position: absolute;
+        left: 15px;
+        top: 200px;
+        width: 300px;
+        font-size: 18px;
+    }
+}
+.apartment_subtitle {
+    width: 50%;
+    margin-inline-start: 0.5rem;
+    margin-block-start: 0.5rem;
+    color: white;
+    height: 100px;
+    text-decoration: none;
+}
+.apartment_image {
+    width: 340px;
+    height: 340px;
+    background-size: cover;
+    border-radius: 10px;
+}
+.title {
+    position: absolute;
+    left: 20px;
+    top: 268px;
+    width: 300px;
+    height: 52px;
+    color: white;
+    display: flex;
+}
+.apartment a{
+    text-decoration: none;
+}

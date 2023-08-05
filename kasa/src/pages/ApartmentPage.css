@@ -1,0 +1,21 @@
+.apartment-page {
+    color: #ff6060;
+    margin-left: -50px;
+    width: 1240px;
+}
+.ApartmentDescription_area {
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+}
+
+@media screen and (width <= 375px) {
+    .ApartmentDescription_area {
+        flex-direction: column;
+        /* width: 335px; */
+        /* height: 29.93px; */
+    }
+    .apartment-page {
+        width: 335px;
+    }
+}
