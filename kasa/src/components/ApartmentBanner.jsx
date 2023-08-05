@@ -2,8 +2,8 @@ import React from 'react';
 import { useState } from "react";
 import './ApartmentBanner.css';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
-import arrowleft from "../assets/arrow_back_ios-24px 1.png";
-import arrowback from "../assets/arrow_back2.png";
+import arrowright from "../assets/arrow_forward2.png";
+import arrowleft from "../assets/arrow_back2.png";
 
 function ApartmentBanner(props) {
   const pictures = props.pictures;
@@ -31,7 +31,7 @@ function ApartmentBanner(props) {
       {pictures.length > 1 &&
         <>
           <span onClick={previousPicture} className='previous'><img src={arrowleft} alt='arrow-back' /></span>
-          <span onClick={nextPicture} className='next'><img src={arrowback} alt='arrow-forward' /></span>
+          <span onClick={nextPicture} className='next'><img src={arrowright} alt='arrow-forward' /></span>
         </>
       }
     </div>

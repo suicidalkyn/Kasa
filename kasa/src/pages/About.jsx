@@ -2,6 +2,7 @@ import React from 'react'
 import './About.css';
 import DescriptionPanel from '../components/DescriptionPanel';
 import '../components/Banner.css'
+import logoBanner from "../assets/kalen-emsley-Bkci_8qcdvQ-unsplash2.png";
 
 function About() {
   const Respect = "La bienveillance fait partie des valeurs fondatrices de Kasa. Tout comportement discriminatoire ou de perturbation du voisinage entraînera une exclusion de notre plateforme."
@@ -11,7 +12,7 @@ function About() {
 
   return (
     <>
-      <div className='imageAboutClass'> <img src='kalen-emsley-Bkci_8qcdvQ-unsplash2.png' alt='banner' className='imageAbout' /> </div>
+      <div className='imageAboutClass'> <img src={logoBanner} alt='banner' className='imageAbout' /> </div>
       <div className='about_container'>
       <DescriptionPanel title="Fiabilité" content={Fiabilite} />
       <DescriptionPanel title="Respect" content={Respect} />

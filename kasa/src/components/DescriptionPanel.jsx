@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './DescriptionPanel.css';
+import arrow from "../assets/arrow_back.png"
 
 function DescriptionPanel(props) {
   const [isContentVisible, setIsContentVisible] = useState(false);
@@ -11,7 +12,7 @@ function DescriptionPanel(props) {
     <div className='apartment_description about'>
       <p className='description_header' onClick={showContent}>
         <span>{props.title}</span>
-        <span className='vector' ><img src='arrow_back.png' alt='Vector' className={isContentVisible ? "open" : ""}/></span>
+        <span className='vector' ><img src={arrow} alt='Vector' className={isContentVisible ? "open" : ""}/></span>
       </p>
       <p className={`description_content ${isContentVisible ? "isOpen" : "isClosed"}`}>{props.content}</p>
     </div>
