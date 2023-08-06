@@ -7,7 +7,7 @@
     margin: 20px;
     color: white;
 }
-@media screen and (width <= 375px) {
+/* @media screen and (width <= 375px) {
     .apartment {
         position: relative;
         width: 335px;
@@ -26,7 +26,7 @@
         width: 200px;
         font-size: 12px;
     }
-}
+} */
 .apartment_subtitle {
     width: 50%;
     margin-inline-start: 0.5rem;
@@ -45,10 +45,11 @@
     position: absolute;
     left: 20px;
     top: 268px;
-    width: 300px;
+    width: 255px;
     height: 52px;
     color: white;
     display: flex;
+    font-size: 24px;
 }
 .apartment a{
     text-decoration: none;

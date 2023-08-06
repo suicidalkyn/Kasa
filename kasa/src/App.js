@@ -6,7 +6,7 @@ import Banner from './components/Banner';
 
 function App() {
   return (
-    <div className='container'>
+    <div>
       <Banner />
       <ApartmentGrid />
     </div>

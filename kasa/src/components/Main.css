@@ -3,4 +3,14 @@
     padding-inline: 3rem;
     margin-bottom: 3rem;
     min-height: 65vh;
+    /* text-align: center; */
+}
+/* @media screen and (width <= 375px) {
+    .main {
+        margin-inline:0 ; 
+    }   
+} */
+.main .imageAboutClass img {
+    text-align: center;
+    margin-left:210px ;
 }
