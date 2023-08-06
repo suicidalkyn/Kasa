@@ -21,6 +21,8 @@ body {
 body .banner {
   max-width: 1240px;
   width: 100%;
+  opacity: 150%;
+  background-blend-mode: darken;
 }
 body .grid {
   padding-left: 0px;

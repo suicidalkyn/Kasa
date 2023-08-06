@@ -40,6 +40,8 @@
     height: 340px;
     background-size: cover;
     border-radius: 10px;
+    opacity: 90%;
+    background-blend-mode: darken;
 }
 .title {
     position: absolute;

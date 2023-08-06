@@ -6,7 +6,7 @@
 }
 .ApartmentDescription_area {
     display: flex;
-    gap: 1em;
+    gap: 4em;
     justify-content: space-between;
 }
 
